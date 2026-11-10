@@ -1,0 +1,19 @@
+[package]
+name = "tva-agent"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dev-dependencies]
+env_logger = { workspace = true }
+
+[dependencies]
+tva-core = { path = "../tva-core" }
+anyhow = { workspace = true }
+log = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+crossbeam-channel = { workspace = true }
+async-channel = { workspace = true }
+parking_lot = { workspace = true }
+dirs = { workspace = true }

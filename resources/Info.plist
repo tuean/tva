@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>TVA 语音助手</string>
+	<key>CFBundleExecutable</key>
+	<string>tva</string>
+	<key>CFBundleIconFile</key>
+	<string>TVA</string>
+	<key>CFBundleIdentifier</key>
+	<string>dev.tva.voice-assistant</string>
+	<key>CFBundleName</key>
+	<string>TVA</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.1.0</string>
+	<key>CFBundleVersion</key>
+	<string>0.1.0</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>13.0</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>TVA 只使用音频输入采集你的语音，不访问你的音乐资料库。此权限可以拒绝。</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>TVA 需要访问麦克风来接收你的语音指令。</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>TVA 需要语音识别权限，把你说的话实时转成文字。</string>
+</dict>
+</plist>
